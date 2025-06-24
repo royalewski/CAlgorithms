@@ -54,7 +54,7 @@ int main(){
   for (int i = 0; i < 5; i++){
     insertAtBeggining(&head, i);
     insertAtEnd(&head, i);
-  };
+  }
   printList(head); 
   return 0;
 }
